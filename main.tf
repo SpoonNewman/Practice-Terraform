@@ -14,6 +14,10 @@ module "nginx" {
   source = "./Modules/Nginx"
 }
 
-module "mondogDB" {
+module "mongoDB" {
   source = "./Modules/MongoDB"
+}
+
+module "vault" {
+  source = "./Modules/Vault"
 }
