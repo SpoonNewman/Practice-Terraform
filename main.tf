@@ -13,3 +13,7 @@ provider "docker" {
 module "nginx" {
   source = "./Modules/Nginx"
 }
+
+module "mondogDB" {
+  source = "./Modules/MongoDB"
+}
